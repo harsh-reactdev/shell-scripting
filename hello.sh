@@ -16,7 +16,7 @@ echo My name is $name
 
 # taking input from the user
 
-echo Enter your age : 
+echo Enter your age :
 read age
 echo Your age is : $age
 
@@ -34,7 +34,8 @@ echo
 echo $username $password
 
 # reading multiple inputs and saving it in an array
-echo What are your interests ? 
+echo What are your interests ?
 read -a interests
 # echo ${interests[0]} ${interests[1]} ${interests[2]} ${interests[3]}
 echo -a $interests
+echo meanwhile
