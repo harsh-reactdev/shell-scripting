@@ -37,5 +37,5 @@ echo $username $password
 echo What are your interests ?
 read -a interests
 # echo ${interests[0]} ${interests[1]} ${interests[2]} ${interests[3]}
-echo -a $interests
-echo meanwhile
+echo $interests      # gives only the first element in the array
+echo ${interests[@]} #prints all of the array elements
